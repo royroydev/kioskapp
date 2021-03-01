@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4204A2788ECC2E408C043C75 /* Pods_KioskApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C525D20BA52B43F3FE58B679 /* Pods_KioskApp.framework */; };
+		CE0319512528A06F003F9CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0319502528A06F003F9CCF /* AppDelegate.swift */; };
+		CE0319532528A06F003F9CCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0319522528A06F003F9CCF /* SceneDelegate.swift */; };
+		CE0319572528A074003F9CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0319562528A074003F9CCF /* Assets.xcassets */; };
+		CE03195A2528A074003F9CCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0319592528A074003F9CCF /* Preview Assets.xcassets */; };
+		CE0319762528A6B0003F9CCF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0319752528A6B0003F9CCF /* Home.storyboard */; };
+		CE0319782528A703003F9CCF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0319772528A703003F9CCF /* HomeVC.swift */; };
+		CE0471702528DBCA00FCB805 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04716F2528DBCA00FCB805 /* Theme.swift */; };
+		CE0471762528DCE800FCB805 /* Segoe UI Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0471722528DCE800FCB805 /* Segoe UI Bold Italic.ttf */; };
+		CE0471772528DCE800FCB805 /* Segoe UI Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0471732528DCE800FCB805 /* Segoe UI Italic.ttf */; };
+		CE0471782528DCE800FCB805 /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0471742528DCE800FCB805 /* Segoe UI Bold.ttf */; };
+		CE0471792528DCE800FCB805 /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0471752528DCE800FCB805 /* Segoe UI.ttf */; };
+		CE04717C2528E21C00FCB805 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04717B2528E21C00FCB805 /* AppConstant.swift */; };
+		CE04717E2528E72600FCB805 /* CheckInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04717D2528E72600FCB805 /* CheckInVC.swift */; };
+		CE7242B625337E89002DE332 /* MTSlideToOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7242B525337E89002DE332 /* MTSlideToOpenView.swift */; };
+		CE8010C12529BE6400097437 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8010C02529BE6400097437 /* UIViewController+Alert.swift */; };
+		CE8010C32529C4DD00097437 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8010C22529C4DD00097437 /* WelcomeVC.swift */; };
+		CE8460362529AF1500B427FF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8460352529AEC800B427FF /* Roboto-Regular.ttf */; };
+		CE8460382529B4E400B427FF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8460372529B4E400B427FF /* Roboto-Bold.ttf */; };
+		CE84603E2529B8A100B427FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE84603B2529B8A100B427FF /* Main.storyboard */; };
+		CE84603F2529B8A100B427FF /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84603C2529B8A100B427FF /* QRScannerView.swift */; };
+		CE8460402529B8A100B427FF /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84603D2529B8A100B427FF /* CopyLabel.swift */; };
+		CE8460432529B8DB00B427FF /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8460422529B8DB00B427FF /* QRData.swift */; };
+		CE8460452529B91A00B427FF /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8460442529B91A00B427FF /* QRScannerViewController.swift */; };
+		CEB5D7D12529E5D10048EAB6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5D7D02529E5D10048EAB6 /* HeaderView.swift */; };
+		CEB5D7D32529E5E50048EAB6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB5D7D22529E5E50048EAB6 /* HeaderView.xib */; };
+		CEB5D7D5252A02650048EAB6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB5D7D4252A02640048EAB6 /* Roboto-Light.ttf */; };
+		CEB5D7D8252A065A0048EAB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB5D7DA252A065A0048EAB6 /* Localizable.strings */; };
+		CEE901FA2528ED800031A915 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE901F92528ED800031A915 /* PasswordVC.swift */; };
+		CEFDBE242530C3BF00D39B88 /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDBE232530C3BF00D39B88 /* ServiceApi.swift */; };
+		CEFDBE262530C95300D39B88 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CEFDBE252530C95300D39B88 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE4E60B225317CD800D79EA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FFD9987252B3FC412A7B15E /* Pods_KioskApp_KioskAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KioskApp_KioskAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318C0F8C99C29D2F00888F52 /* Pods-KioskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskApp.debug.xcconfig"; path = "Target Support Files/Pods-KioskApp/Pods-KioskApp.debug.xcconfig"; sourceTree = "<group>"; };
+		52969DC60BB840F6E414043C /* Pods-KioskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskApp.release.xcconfig"; path = "Target Support Files/Pods-KioskApp/Pods-KioskApp.release.xcconfig"; sourceTree = "<group>"; };
+		62EF5E6C1FE1064A7B8AF9C7 /* Pods-KioskApp-KioskAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskApp-KioskAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KioskApp-KioskAppTests/Pods-KioskApp-KioskAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		791C1124A069A1C395355BCD /* Pods-KioskApp-KioskAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskApp-KioskAppTests.release.xcconfig"; path = "Target Support Files/Pods-KioskApp-KioskAppTests/Pods-KioskApp-KioskAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C525D20BA52B43F3FE58B679 /* Pods_KioskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KioskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE03194D2528A06F003F9CCF /* KioskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KioskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0319502528A06F003F9CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE0319522528A06F003F9CCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE0319562528A074003F9CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0319592528A074003F9CCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE03195E2528A074003F9CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0319672528A075003F9CCF /* KioskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskAppTests.swift; sourceTree = "<group>"; };
+		CE0319692528A075003F9CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0319752528A6B0003F9CCF /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CE0319772528A703003F9CCF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CE04716F2528DBCA00FCB805 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CE0471722528DCE800FCB805 /* Segoe UI Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold Italic.ttf"; sourceTree = "<group>"; };
+		CE0471732528DCE800FCB805 /* Segoe UI Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Italic.ttf"; sourceTree = "<group>"; };
+		CE0471742528DCE800FCB805 /* Segoe UI Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold.ttf"; sourceTree = "<group>"; };
+		CE0471752528DCE800FCB805 /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
+		CE04717B2528E21C00FCB805 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		CE04717D2528E72600FCB805 /* CheckInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInVC.swift; sourceTree = "<group>"; };
+		CE7242B525337E89002DE332 /* MTSlideToOpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSlideToOpenView.swift; sourceTree = "<group>"; };
+		CE8010C02529BE6400097437 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		CE8010C22529C4DD00097437 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		CE8460352529AEC800B427FF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CE8460372529B4E400B427FF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CE84603B2529B8A100B427FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE84603C2529B8A100B427FF /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		CE84603D2529B8A100B427FF /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		CE8460422529B8DB00B427FF /* QRData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		CE8460442529B91A00B427FF /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		CEB5D7D02529E5D10048EAB6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CEB5D7D22529E5E50048EAB6 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		CEB5D7D4252A02640048EAB6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CEB5D7D9252A065A0048EAB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEE901F42528EC090031A915 /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
+		CEE901F52528EC090031A915 /* NotoSansJP-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Thin.otf"; sourceTree = "<group>"; };
+		CEE901F62528EC090031A915 /* NotoSansJP-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Bold.otf"; sourceTree = "<group>"; };
+		CEE901F72528EC090031A915 /* NotoSansJP-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Black.otf"; sourceTree = "<group>"; };
+		CEE901F82528EC090031A915 /* NotoSansJP-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Medium.otf"; sourceTree = "<group>"; };
+		CEE901F92528ED800031A915 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		CEFDBE232530C3BF00D39B88 /* ServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
+		CEFDBE252530C95300D39B88 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEFDBE272530CCD100D39B88 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE03194A2528A06F003F9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4204A2788ECC2E408C043C75 /* Pods_KioskApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E39BA966C27B6421F77C608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318C0F8C99C29D2F00888F52 /* Pods-KioskApp.debug.xcconfig */,
+				52969DC60BB840F6E414043C /* Pods-KioskApp.release.xcconfig */,
+				62EF5E6C1FE1064A7B8AF9C7 /* Pods-KioskApp-KioskAppTests.debug.xcconfig */,
+				791C1124A069A1C395355BCD /* Pods-KioskApp-KioskAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		485E763D5D742CE42B1B3987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDBE272530CCD100D39B88 /* Alamofire.framework */,
+				C525D20BA52B43F3FE58B679 /* Pods_KioskApp.framework */,
+				0FFD9987252B3FC412A7B15E /* Pods_KioskApp_KioskAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0319442528A06F003F9CCF = {
+			isa = PBXGroup;
+			children = (
+				CEFDBE252530C95300D39B88 /* Podfile */,
+				CE03194F2528A06F003F9CCF /* KioskApp */,
+				CE0319662528A075003F9CCF /* KioskAppTests */,
+				CE03194E2528A06F003F9CCF /* Products */,
+				2E39BA966C27B6421F77C608 /* Pods */,
+				485E763D5D742CE42B1B3987 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE03194E2528A06F003F9CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE03194D2528A06F003F9CCF /* KioskApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE03194F2528A06F003F9CCF /* KioskApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE04716E2528DB9100FCB805 /* Global */,
+				CE0319502528A06F003F9CCF /* AppDelegate.swift */,
+				CE0319522528A06F003F9CCF /* SceneDelegate.swift */,
+				CE0319722528A67F003F9CCF /* MVVM */,
+				CE0319562528A074003F9CCF /* Assets.xcassets */,
+				CE0471712528DC9800FCB805 /* Resources */,
+				CE03195E2528A074003F9CCF /* Info.plist */,
+				CE0319582528A074003F9CCF /* Preview Content */,
+			);
+			path = KioskApp;
+			sourceTree = "<group>";
+		};
+		CE0319582528A074003F9CCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE0319592528A074003F9CCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE0319662528A075003F9CCF /* KioskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0319672528A075003F9CCF /* KioskAppTests.swift */,
+				CE0319692528A075003F9CCF /* Info.plist */,
+			);
+			path = KioskAppTests;
+			sourceTree = "<group>";
+		};
+		CE0319722528A67F003F9CCF /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CE8460392529B8A100B427FF /* QR Code */,
+				CE0319742528A697003F9CCF /* Controllers */,
+				CE0319732528A689003F9CCF /* Views */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CE0319732528A689003F9CCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE0319752528A6B0003F9CCF /* Home.storyboard */,
+				CEB5D7D22529E5E50048EAB6 /* HeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE0319742528A697003F9CCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE0319772528A703003F9CCF /* HomeVC.swift */,
+				CE04717D2528E72600FCB805 /* CheckInVC.swift */,
+				CEE901F92528ED800031A915 /* PasswordVC.swift */,
+				CE8010C22529C4DD00097437 /* WelcomeVC.swift */,
+				CEB5D7D02529E5D10048EAB6 /* HeaderView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE04716E2528DB9100FCB805 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CE7242B425337E89002DE332 /* Source */,
+				CE8010BF2529BE6400097437 /* Extension */,
+				CE04716F2528DBCA00FCB805 /* Theme.swift */,
+				CE04717B2528E21C00FCB805 /* AppConstant.swift */,
+				CEFDBE232530C3BF00D39B88 /* ServiceApi.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		CE0471712528DC9800FCB805 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8460372529B4E400B427FF /* Roboto-Bold.ttf */,
+				CEB5D7D4252A02640048EAB6 /* Roboto-Light.ttf */,
+				CE8460352529AEC800B427FF /* Roboto-Regular.ttf */,
+				CEE901F72528EC090031A915 /* NotoSansJP-Black.otf */,
+				CEE901F62528EC090031A915 /* NotoSansJP-Bold.otf */,
+				CEE901F42528EC090031A915 /* NotoSansJP-Light.otf */,
+				CEE901F82528EC090031A915 /* NotoSansJP-Medium.otf */,
+				CEE901F52528EC090031A915 /* NotoSansJP-Thin.otf */,
+				CE0471722528DCE800FCB805 /* Segoe UI Bold Italic.ttf */,
+				CE0471742528DCE800FCB805 /* Segoe UI Bold.ttf */,
+				CE0471732528DCE800FCB805 /* Segoe UI Italic.ttf */,
+				CE0471752528DCE800FCB805 /* Segoe UI.ttf */,
+				CEB5D7DA252A065A0048EAB6 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE7242B425337E89002DE332 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CE7242B525337E89002DE332 /* MTSlideToOpenView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CE8010BF2529BE6400097437 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE8010C02529BE6400097437 /* UIViewController+Alert.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE8460392529B8A100B427FF /* QR Code */ = {
+			isa = PBXGroup;
+			children = (
+				CE8460412529B8DB00B427FF /* Model */,
+				CE84603A2529B8A100B427FF /* StoryBoards */,
+				CE84603C2529B8A100B427FF /* QRScannerView.swift */,
+				CE8460442529B91A00B427FF /* QRScannerViewController.swift */,
+				CE84603D2529B8A100B427FF /* CopyLabel.swift */,
+			);
+			path = "QR Code";
+			sourceTree = "<group>";
+		};
+		CE84603A2529B8A100B427FF /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				CE84603B2529B8A100B427FF /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		CE8460412529B8DB00B427FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8460422529B8DB00B427FF /* QRData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE03194C2528A06F003F9CCF /* KioskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE03196C2528A075003F9CCF /* Build configuration list for PBXNativeTarget "KioskApp" */;
+			buildPhases = (
+				7541A6DB70746E18D7E5F2DB /* [CP] Check Pods Manifest.lock */,
+				CE0319492528A06F003F9CCF /* Sources */,
+				CE03194A2528A06F003F9CCF /* Frameworks */,
+				CE03194B2528A06F003F9CCF /* Resources */,
+				CE4E60B225317CD800D79EA4 /* Embed Frameworks */,
+				CAEA534F5684F3B3556E3DDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KioskApp;
+			productName = KioskApp;
+			productReference = CE03194D2528A06F003F9CCF /* KioskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE0319452528A06F003F9CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Pankaj;
+				TargetAttributes = {
+					CE03194C2528A06F003F9CCF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = CE0319482528A06F003F9CCF /* Build configuration list for PBXProject "KioskApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE0319442528A06F003F9CCF;
+			productRefGroup = CE03194E2528A06F003F9CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE03194C2528A06F003F9CCF /* KioskApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE03194B2528A06F003F9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0471792528DCE800FCB805 /* Segoe UI.ttf in Resources */,
+				CE84603E2529B8A100B427FF /* Main.storyboard in Resources */,
+				CEB5D7D5252A02650048EAB6 /* Roboto-Light.ttf in Resources */,
+				CE03195A2528A074003F9CCF /* Preview Assets.xcassets in Resources */,
+				CEB5D7D32529E5E50048EAB6 /* HeaderView.xib in Resources */,
+				CE8460362529AF1500B427FF /* Roboto-Regular.ttf in Resources */,
+				CE0471772528DCE800FCB805 /* Segoe UI Italic.ttf in Resources */,
+				CE0319572528A074003F9CCF /* Assets.xcassets in Resources */,
+				CE8460382529B4E400B427FF /* Roboto-Bold.ttf in Resources */,
+				CEB5D7D8252A065A0048EAB6 /* Localizable.strings in Resources */,
+				CE0471782528DCE800FCB805 /* Segoe UI Bold.ttf in Resources */,
+				CE0319762528A6B0003F9CCF /* Home.storyboard in Resources */,
+				CEFDBE262530C95300D39B88 /* Podfile in Resources */,
+				CE0471762528DCE800FCB805 /* Segoe UI Bold Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7541A6DB70746E18D7E5F2DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KioskApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		CAEA534F5684F3B3556E3DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KioskApp/Pods-KioskApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KioskApp/Pods-KioskApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KioskApp/Pods-KioskApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0319492528A06F003F9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04717E2528E72600FCB805 /* CheckInVC.swift in Sources */,
+				CE8460452529B91A00B427FF /* QRScannerViewController.swift in Sources */,
+				CE8460402529B8A100B427FF /* CopyLabel.swift in Sources */,
+				CE8010C12529BE6400097437 /* UIViewController+Alert.swift in Sources */,
+				CE7242B625337E89002DE332 /* MTSlideToOpenView.swift in Sources */,
+				CE8010C32529C4DD00097437 /* WelcomeVC.swift in Sources */,
+				CE0319512528A06F003F9CCF /* AppDelegate.swift in Sources */,
+				CE0319782528A703003F9CCF /* HomeVC.swift in Sources */,
+				CE8460432529B8DB00B427FF /* QRData.swift in Sources */,
+				CE0471702528DBCA00FCB805 /* Theme.swift in Sources */,
+				CEE901FA2528ED800031A915 /* PasswordVC.swift in Sources */,
+				CE04717C2528E21C00FCB805 /* AppConstant.swift in Sources */,
+				CE84603F2529B8A100B427FF /* QRScannerView.swift in Sources */,
+				CE0319532528A06F003F9CCF /* SceneDelegate.swift in Sources */,
+				CEB5D7D12529E5D10048EAB6 /* HeaderView.swift in Sources */,
+				CEFDBE242530C3BF00D39B88 /* ServiceApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB5D7DA252A065A0048EAB6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB5D7D9252A065A0048EAB6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE03196A2528A075003F9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE03196B2528A075003F9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE03196D2528A075003F9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318C0F8C99C29D2F00888F52 /* Pods-KioskApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"KioskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QCEK85FTE6;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/Alamofire,
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = KioskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@rpath",
+					"@loader_path",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenjobfind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TJF_Development;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CE03196E2528A075003F9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52969DC60BB840F6E414043C /* Pods-KioskApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"KioskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QCEK85FTE6;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/Alamofire,
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = KioskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@rpath",
+					"@loader_path",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenjobfind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TJF_Development;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0319482528A06F003F9CCF /* Build configuration list for PBXProject "KioskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE03196A2528A075003F9CCF /* Debug */,
+				CE03196B2528A075003F9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE03196C2528A075003F9CCF /* Build configuration list for PBXNativeTarget "KioskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE03196D2528A075003F9CCF /* Debug */,
+				CE03196E2528A075003F9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE0319452528A06F003F9CCF /* Project object */;
+}

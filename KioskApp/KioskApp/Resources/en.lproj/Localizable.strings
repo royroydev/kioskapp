@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  KioskApp
+
+  Created by Pankaj on 04/10/20.
+  Copyright © 2020 Pankaj. All rights reserved.
+*/
+
+"The \n Hotel"  =   "The \n Hotel";
+"English"       =   "English";
+"Help"          =   "Help";
+"Enter the password"    =   "Enter the password";
+"OK, NEXT"      =   "OK, NEXT";
+"Password"      =   "Password";
+"QR Code"       =   "QR Code";
+"Check In"       =   "Check In";
+"Check Out"     =   "Check Out";
+
+"Swipe to continue"     =   "Swipe to continue";
+"Hold the QR code in front of the camera"   =   "Hold the QR code in front of the camera";
+"Please enter the password"     =       "Please enter the password";
